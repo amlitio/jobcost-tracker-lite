@@ -11,4 +11,3 @@ const config = {
 export const app = getApps().length ? getApps()[0] : initializeApp(config);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
-
