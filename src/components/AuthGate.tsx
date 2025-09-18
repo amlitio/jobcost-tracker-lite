@@ -39,4 +39,3 @@ function AuthPanel() {
 }
 
 export const LogoutBtn = () => <button onClick={()=>signOut(auth)}>Logout</button>;
-
