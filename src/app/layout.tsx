@@ -1,6 +1,9 @@
-import "./../styles/globals.css";
+import "../styles/globals.css";
 
-export const metadata = { title: "JobCost Tracker", description: "Adler Hydro Vac" };
+export const metadata = {
+  title: "JobCost Tracker",
+  description: "Adler Hydro Vac"
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
